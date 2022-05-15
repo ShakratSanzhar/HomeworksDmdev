@@ -11,7 +11,7 @@ package week1.homework1;
 public class Task1 {
 
     public static void main(String[] args) {
-        int minutes = 59;
+        int minutes = 34;
         printQuarter(minutes);
     }
     public static void printQuarter(int minutes) {
