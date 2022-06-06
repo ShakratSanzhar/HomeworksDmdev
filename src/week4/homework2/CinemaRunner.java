@@ -31,7 +31,7 @@ public class CinemaRunner {
         Cinema cinema = new Cinema(map);
         Film film13 = new Film(13, 2005, MonthOfPublication.DECEMBER, Genre.THRILLER, 10.2);
         cinema.addNewFilm(film13);
-        printFilms(cinema.getTopTenFilms());
+       // printFilms(cinema.getTopTenFilms());
         printFilms(cinema.getAllFilmsByYearOfPublication(2005));
         printFilms(cinema.getAllFilmsByYearAndMonthOfPublication(2002, MonthOfPublication.FEBRUARY));
         printFilms(cinema.getAllFilmsByGenre(Genre.THRILLER));
